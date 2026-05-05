@@ -9,6 +9,6 @@ Instead of treating the image as a simple 2D picture, calibration allows us to u
 - **Chessboard Calibration**: Use a known planar target to build correspondences between 3D points on the board and their detected 2D image coordinates.
 - **Image Rectification**: Warp stereo images so that corresponding points lie on the same image row, simplifying stereo matching.
 
-##📝 Note
+## 📝 Note
 The code inside the Python code folder is designed to perform live calibration with a stereo camera.
 The notebook, instead, uses a pre-recorded video for the calibration process.
